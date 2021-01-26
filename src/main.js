@@ -5,6 +5,7 @@ import "buefy/dist/buefy.css";
 import VueRouter from "vue-router";
 import router from "./router";
 import store from "./store";
+import { createProvider } from './vue-apollo'
 
 // import { library } from "@fortawesome/fontawesome-svg-core";
 // import { faCoffee } from "@fortawesome/free-solid-svg-icons";
@@ -21,5 +22,6 @@ Vue.config.productionTip = false;
 new Vue({
   router,
   store,
+  apolloProvider: createProvider(),
   render: h => h(App)
 }).$mount("#app");
