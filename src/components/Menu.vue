@@ -3,12 +3,12 @@
     <p class="panel-heading has-background-primary has-text-white">
       Tweeter-Hasura
     </p>
-    <a class="panel-block is-active">
+    <router-link class="panel-block is-active" to="/dashboard">
       <span class="panel-icon">
         <i class="fas fa-user" aria-hidden="true"></i>
       </span>
       Profile
-    </a>
+    </router-link>
     <a class="panel-block">
       <span class="panel-icon"> <i class="fas fa-sign-out-alt"></i> </span>
       Logout

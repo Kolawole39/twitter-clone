@@ -6,18 +6,10 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <Feed />
+    <!-- <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div> -->
+    <router-view />
   </div>
 </template>
-
-<script>
-import Feed from "./pages/Feed";
-
-
-export default {
-  name: "App",
-  components: {
-    Feed
-  }
-};
-</script>
