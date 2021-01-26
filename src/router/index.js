@@ -7,7 +7,6 @@ import Dashboard from "../pages/Dashboard.vue";
 Vue.use(VueRouter);
 
 const routes = [
-
   {
     path: "/login",
     name: "Home",
